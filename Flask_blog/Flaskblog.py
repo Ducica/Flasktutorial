@@ -5,7 +5,7 @@ Created on Mon Jun  7 16:18:54 2021
 @author: SESA442614
 """
 
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 app=Flask(__name__)
 
 posts=[
